@@ -8,7 +8,7 @@ const ProtectedRoutes = () => {
   const { push } = useHistory();
 
   useEffect(() => {
-    if (pathname == "/") {
+    if (pathname === "/") {
       push("/home");
     }
   });

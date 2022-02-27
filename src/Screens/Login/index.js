@@ -89,7 +89,12 @@ const Login = () => {
                 Forgot Password
               </Link>
             </div>
-            <input placeholder="Enter your password" className="input" {...register("password", { required: true })} />
+            <input
+              placeholder="Enter your password"
+              className="input"
+              type="password"
+              {...register("password", { required: true })}
+            />
             <span className="error">{errors.password?.type === "required" && "Field is required"}</span>
           </div>
 
