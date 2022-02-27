@@ -25,3 +25,14 @@
     transform: rotate(360deg);
   }
 }
+
+#version-name {
+  position: absolute;
+  bottom: 0;
+  padding: 2px 10px;
+  margin-bottom: 25px;
+  z-index: 1000;
+  font: normal normal normal 12px/14px Helvetica Neue;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
